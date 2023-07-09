@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(135deg, #80c3ff, #ffd55f, #ff8c42);
+    background-size: 1000% 1000%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+h1{
+    font-family: "Baskerville";
+    text-align: center;
+    margin-bottom: none;
+    padding-bottom: none;
+    font-size: 4.6rem;
+    font-weight: 600;
+    color:#333333;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.app {
+    width: 20rem;
+    margin: 20px auto;
+    margin-bottom: 0;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #f0f7f9; /* Pale Blue */
+    border: 1px solid #c6e2e9; /* Light Blue */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.weather-body{
+    color: #000000;
+    padding: 20px;
+    line-height: 1.4rem;
+    margin-top: 20px;
+    text-align: centre;
+    display: none;
+
+}
+.location-details{
+    margin-top: none;
+    font-weight: bold;
+}
+.weather-status{
+    padding: 20px;
+    line-height: 1.45rem;
+}
+.app-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp{
+    font-size: 5rem;
+    font-weight: 450;
+    margin-top: 23px;
+    margin-bottom: 35px;
+}
+.form-control{
+    width:85%;
+}
+#submit{
+    margin-left:10x;
+}
+.card-body{
+    margin-top:none;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+@media screen and (max-width: 600px) {
+    #parent {
+      max-width: 90%;
+    }
+  
+    .form-control {
+      width: 70%;
+    }
+}
+
+.swal-modal {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.swal-title {
+    color: #336699;
+}
+
+.swal-text {
+    color: #333;
+}
+
+.swal-button {
+    background-color: #336699;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: #1a4f83;
+}
+
+.swal-footer {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
